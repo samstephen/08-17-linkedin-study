@@ -378,8 +378,7 @@ body {
   position: relative;
   width: 22.91667%;
   float: left;
-  margin: 10px;
-  padding: 15px; }
+  margin: 10px; }
 
 .block--half-col {
   width: 47.91667%; }
@@ -399,23 +398,40 @@ body {
 .text-center {
   text-align: center; }
 
-.profile-panel__follow {
-  background: #38B7EA;
-  border-radius: 33px;
-  -moz-border-radius: 33px;
-  -webkit-border-radius: 33px;
-  border: 2px solid #38B7EA; }
-
-.profile-panel__connect {
-  background: #fff;
-  border-radius: 33px;
-  -moz-border-radius: 33px;
-  -webkit-border-radius: 33px;
-  border: 2px solid #38B7EA; }
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  color: #F0F2F4;
+  background-color: #F0F2F4; }
 
 button {
-  text-align: center;
+  width: 75%;
+  height: 40px;
+  margin: 5px auto;
   alignment: center;
+  text-align: center;
+  border-radius: 33px;
+  -moz-border-radius: 33px;
+  -webkit-border-radius: 33px;
   padding: 2px 15px; }
+
+.profile-panel__follow {
+  color: white;
+  background: #38B7EA;
+  border: 1px solid #38B7EA; }
+
+.profile-panel__connect {
+  color: #38B7EA;
+  background: #fff;
+  border: 1px solid #38B7EA;
+  margin-bottom: 15px; }
+
+.profile-panel__social-data {
+  width: 50%;
+  float: left; }
+
+.profile-panel__social-data.left-border {
+  border-right: solid 1px #F0F2F4; }
 
 /*# sourceMappingURL=styles.css.map */
