@@ -14,7 +14,7 @@ body{
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -23,8 +23,8 @@ body{
   position: relative;
   width: $quarter-col;
   float: left;
-  margin: 5px;
-  padding: 25px;
+  margin: 10px;
+  padding: 15px;
 }
 
 .block--half-col {
