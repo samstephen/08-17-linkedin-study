@@ -387,6 +387,18 @@ body {
 .block.block--right {
   float: right; }
 
+.name {
+  text-align: center; }
+
+.title {
+  text-align: center; }
+
+.location {
+  text-align: center; }
+
+.text-center {
+  text-align: center; }
+
 .profile-panel__follow {
   background: #38B7EA;
   border-radius: 33px;
@@ -400,5 +412,10 @@ body {
   -moz-border-radius: 33px;
   -webkit-border-radius: 33px;
   border: 2px solid #38B7EA; }
+
+button {
+  text-align: center;
+  alignment: center;
+  padding: 2px 15px; }
 
 /*# sourceMappingURL=styles.css.map */
