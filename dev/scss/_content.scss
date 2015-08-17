@@ -17,6 +17,8 @@ button {
   border: 1px solid $primary;
 }
 
+
+
 .profile-panel__connect {
   color: $primary;
   background: #fff;
@@ -37,9 +39,12 @@ button {
 
 
 .profile-panel__social-links {
+  margin: 0;
+  padding: 10px 15px;
+  border-top: solid 1px $light-gray;
   color: $gray;
   font-size: 10px;
-  width: 90%;
+  width: 100%;
   float: left;
   font-weight: lighter;
   list-style: none;
@@ -48,6 +53,11 @@ button {
 
 .profile-panel__social-links a {
   color: $gray;
+  padding: 5px;
+}
+
+.profile-panel__social-links li {
+  padding-bottom: 10px;
 }
 
 .title {

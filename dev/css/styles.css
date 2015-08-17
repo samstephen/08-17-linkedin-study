@@ -359,7 +359,8 @@ th {
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
-  color: #42484C; }
+  color: #42484C;
+  font-size: 12px; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -441,16 +442,23 @@ button {
   border-right: solid 1px #F0F2F4; }
 
 .profile-panel__social-links {
+  margin: 0;
+  padding: 10px 15px;
+  border-top: solid 1px #F0F2F4;
   color: #A5A8AB;
   font-size: 10px;
-  width: 90%;
+  width: 100%;
   float: left;
   font-weight: lighter;
   list-style: none;
   text-align: left; }
 
 .profile-panel__social-links a {
-  color: #A5A8AB; }
+  color: #A5A8AB;
+  padding: 5px; }
+
+.profile-panel__social-links li {
+  padding-bottom: 10px; }
 
 .title {
   color: #A5A8AB;
