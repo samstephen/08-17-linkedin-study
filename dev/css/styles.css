@@ -405,6 +405,10 @@ hr {
   color: #F0F2F4;
   background-color: #F0F2F4; }
 
+a {
+  color: #38B7EA;
+  text-decoration: none; }
+
 button {
   width: 75%;
   height: 40px;
@@ -414,7 +418,8 @@ button {
   border-radius: 33px;
   -moz-border-radius: 33px;
   -webkit-border-radius: 33px;
-  padding: 2px 15px; }
+  padding: 2px 15px;
+  font-weight: lighter; }
 
 .profile-panel__follow {
   color: white;
@@ -430,7 +435,7 @@ button {
 .profile-panel__social-data {
   width: 50%;
   float: left;
-  font-size: 10px; }
+  font-size: 12px; }
 
 .profile-panel__social-data.left-border {
   border-right: solid 1px #F0F2F4; }
@@ -440,14 +445,21 @@ button {
   font-size: 10px;
   width: 90%;
   float: left;
-  font-weight: lighter; }
+  font-weight: lighter;
+  list-style: none;
+  text-align: left; }
+
+.profile-panel__social-links a {
+  color: #A5A8AB; }
 
 .title {
   color: #A5A8AB;
-  font-weight: lighter; }
+  font-weight: lighter;
+  margin-top: 3px; }
 
 .amount {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 0; }
 
 .location {
   color: #A5A8AB;
