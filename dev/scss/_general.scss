@@ -1,17 +1,39 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  color: $black;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+body{
+  margin: 0;
+  padding: 0;
+  background: $bg-color;
+}
 
-.blocks {
-  max-width: 960px;
+.container {
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-.block{
+.block {
+  background: #fff;
   position: relative;
   width: $quarter-col;
   float: left;
+  margin: 5px;
+  padding: 25px;
 }
 
 .block--half-col {
   width: $half-col;
 }
+
+.block.block--right {
+  float: right;
+}
+
+
+

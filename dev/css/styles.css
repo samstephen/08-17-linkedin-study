@@ -357,19 +357,45 @@ th {
   padding: 0; }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
-.blocks {
-  max-width: 960px;
+html {
+  box-sizing: border-box;
+  color: #42484C; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F5F8F9; }
+
+.container {
+  max-width: 1280px;
   margin: 0 auto; }
 
 .block {
+  background: #fff;
   position: relative;
   width: 25%;
-  float: left; }
+  float: left;
+  margin: 5px;
+  padding: 25px; }
 
 .block--half-col {
   width: 50%; }
 
+.block.block--right {
+  float: right; }
+
 .profile-panel__follow {
+  background: #38B7EA;
+  border-radius: 33px;
+  -moz-border-radius: 33px;
+  -webkit-border-radius: 33px;
+  border: 2px solid #38B7EA; }
+
+.profile-panel__connect {
+  background: #fff;
   border-radius: 33px;
   -moz-border-radius: 33px;
   -webkit-border-radius: 33px;

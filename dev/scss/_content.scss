@@ -1,4 +1,13 @@
 .profile-panel__follow {
+  background: $primary;
+  border-radius: 33px;
+  -moz-border-radius: 33px;
+  -webkit-border-radius: 33px;
+  border: 2px solid #38B7EA;
+}
+
+.profile-panel__connect {
+  background: #fff;
   border-radius: 33px;
   -moz-border-radius: 33px;
   -webkit-border-radius: 33px;
