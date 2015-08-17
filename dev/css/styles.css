@@ -429,9 +429,28 @@ button {
 
 .profile-panel__social-data {
   width: 50%;
-  float: left; }
+  float: left;
+  font-size: 10px; }
 
 .profile-panel__social-data.left-border {
   border-right: solid 1px #F0F2F4; }
+
+.profile-panel__social-links {
+  color: #A5A8AB;
+  font-size: 10px;
+  width: 90%;
+  float: left;
+  font-weight: lighter; }
+
+.title {
+  color: #A5A8AB;
+  font-weight: lighter; }
+
+.amount {
+  font-weight: bold; }
+
+.location {
+  color: #A5A8AB;
+  font-weight: lighter; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -27,8 +27,33 @@ button {
 .profile-panel__social-data {
   width: 50%;
   float: left;
+  font-size: 10px;
 }
 
 .profile-panel__social-data.left-border {
   border-right: solid 1px $light-gray;
+}
+
+
+.profile-panel__social-links {
+  color: $gray;
+  font-size: 10px;
+  width: 90%;
+  float: left;
+  font-weight: lighter;
+}
+
+.title {
+  color: $gray;
+  font-weight: lighter;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.location {
+  color: $gray;
+  font-weight: lighter;
+
 }
