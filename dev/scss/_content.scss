@@ -1,3 +1,6 @@
+
+/*  */
+
 button {
   width: 75%;
   height: 40px;
@@ -17,8 +20,6 @@ button {
   border: 1px solid $primary;
 }
 
-
-
 .profile-panel__connect {
   color: $primary;
   background: #fff;
@@ -26,6 +27,9 @@ button {
   margin-bottom: 15px;
 }
 
+.block--profile-panel {
+  margin-bottom: 400px;
+}
 
 .profile-panel__social-data {
   width: 50%;
@@ -74,4 +78,65 @@ button {
 .location {
   color: $gray;
   font-weight: lighter;
+}
+
+button.circle {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  float: right;
+  text-align: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 5px;
+  font-weight: lighter;
+  border: 1px solid $black;
+  background: white;
+}
+
+button.circle + .circle {
+  margin-right: 5px;
+}
+
+button.circle, .circle {
+  margin-left: 0;
+}
+
+h5 {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.article--content {
+  border-top: 1px solid $light-gray;
+  height: 100%;
+}
+
+.topic {
+  float: left;
+  width: 33.3333%;
+  padding: 20px;
+}
+
+
+.topic--left {
+  padding-right: 0;
+}
+
+.topic--mid {
+  padding: 20px 10px;
+}
+
+.topic--right {
+  padding-left: 0;
+}
+
+.post-pic {
+  background: $purple;
+  height: 133.328px;
+  width: 133.328px;
 }

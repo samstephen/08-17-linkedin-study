@@ -410,6 +410,10 @@ a {
   color: #38B7EA;
   text-decoration: none; }
 
+.right {
+  float: right; }
+
+/*  */
 button {
   width: 75%;
   height: 40px;
@@ -432,6 +436,9 @@ button {
   background: #fff;
   border: 1px solid #38B7EA;
   margin-bottom: 15px; }
+
+.block--profile-panel {
+  margin-bottom: 400px; }
 
 .profile-panel__social-data {
   width: 50%;
@@ -472,5 +479,55 @@ button {
 .location {
   color: #A5A8AB;
   font-weight: lighter; }
+
+button.circle {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  float: right;
+  text-align: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 5px;
+  font-weight: lighter;
+  border: 1px solid #42484C;
+  background: white; }
+
+button.circle + .circle {
+  margin-right: 5px; }
+
+button.circle, .circle {
+  margin-left: 0; }
+
+h5 {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: normal; }
+
+.article--content {
+  border-top: 1px solid #F0F2F4;
+  height: 100%; }
+
+.topic {
+  float: left;
+  width: 33.3333%;
+  padding: 20px; }
+
+.topic--left {
+  padding-right: 0; }
+
+.topic--mid {
+  padding: 20px 10px; }
+
+.topic--right {
+  padding-left: 0; }
+
+.post-pic {
+  background: #CD7FE2;
+  height: 133.328px;
+  width: 133.328px; }
 
 /*# sourceMappingURL=styles.css.map */
