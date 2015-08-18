@@ -7,6 +7,8 @@
 .col {
   padding: 10px;
   text-align: center;
+  margin: 0;
+  float: left;
 
 }
 
@@ -28,5 +30,8 @@
 
 nav {
   background-color: white;
-  width: 100%;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
 }
