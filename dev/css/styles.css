@@ -419,6 +419,27 @@ a {
   color: #38B7EA;
   text-decoration: none; }
 
+.border-top {
+  border-top: solid 1px #F0F2F4; }
+
+.border-right {
+  border-right: solid 1px #F0F2F4; }
+
+.border-bottom {
+  border-bottom: solid 1px #F0F2F4; }
+
+.border-left {
+  border-left: solid 1px #F0F2F4; }
+
+nav {
+  background-color: white;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  position: relative;
+  display: table; }
+
 .fa-linkedin-square {
   color: #38B7EA; }
 
@@ -436,13 +457,6 @@ a {
 
 .half {
   width: 50%; }
-
-nav {
-  background-color: white;
-  width: 970px;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 50px; }
 
 .search {
   position: relative; }
