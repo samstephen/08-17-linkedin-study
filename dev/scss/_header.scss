@@ -40,7 +40,7 @@ nav {
 .search input {
   text-indent: 5px;
   border-radius: 12px;
-  border: solid 1px $gray;
+  border: solid 1px $light-gray;
   padding: 5px;
 }
 
@@ -49,4 +49,25 @@ nav {
   top: 6px;
   right: 10px;
   font-size: 13px;
+  color: $black;
 }
+
+.top-navigation {
+  padding-left: 0;
+  margin: 0;
+}
+
+.top-navigation li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
