@@ -372,7 +372,7 @@ body {
 
 .container {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 10px; }
 
 .block {
   background: #fff;
@@ -412,6 +412,9 @@ a {
 
 .right {
   float: right; }
+
+.fa-linkedin-square {
+  color: #38B7EA; }
 
 /*  */
 button {
