@@ -456,7 +456,8 @@ nav {
   flex-direction: column; }
 
 .less-height {
-  height: 34px; }
+  height: 34px;
+  padding: 10px 14px; }
 
 .twelfth {
   width: 8.333%; }
@@ -505,15 +506,15 @@ nav {
   font-weight: lighter;
   list-style: none;
   display: inline-block;
-  margin: 0 15px; }
+  margin: 0; }
 
 .bottom-navigation li a {
-  color: #A5A8AB; }
+  color: #A5A8AB;
+  padding: 8px 20px; }
 
 .bottom-navigation li a.active-tab {
   border-bottom: solid 2px #38B7EA;
-  color: #42484C;
-  padding: 8px; }
+  color: #42484C; }
 
 .fa-comment {
   color: #62BC6F; }

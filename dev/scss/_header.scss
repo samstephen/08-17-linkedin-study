@@ -35,6 +35,7 @@ nav {
 
 .less-height {
   height: 34px;
+  padding: 10px 14px;
 }
 
 .twelfth {
@@ -96,17 +97,17 @@ nav {
   font-weight: lighter;
   list-style: none;
   display: inline-block;
-  margin: 0 15px;
+  margin: 0;
 }
 
 .bottom-navigation li a {
   color: $gray;
+  padding: 8px 20px;
 }
 
 .bottom-navigation li a.active-tab {
   border-bottom: solid 2px $primary;
   color: $black;
-  padding: 8px;
 }
 
 
