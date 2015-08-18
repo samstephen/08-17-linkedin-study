@@ -19,7 +19,7 @@
 
 </head>
 <body>
-<!-- TODO: need to fix the header's padding to align objects vertically centered -->
+
 <header>
 
     <nav class="border-bottom">
@@ -126,83 +126,84 @@
 
 <div class="container">
 
-    <section class="block block--profile-panel text-center">
-        <img class="profile-panel__picture">
-        <h3 class="name">
-            Bill Gates
-        </h3>
-        <p class="position">
-            Microsoft Founder
-        </p>
-        <p class="location">
-            Greater Seattle Area
-        </p>
-
-        <button class="profile-panel__follow">Follow</button>
-
-        <button class="profile-panel__connect">Connect <i class="fa fa-caret-down"></i></button>
-
-        <hr>
-        <div class="profile-panel__social-data left-border">
-            <p class="amount">
-                200
+    <section class="block text-center">
+        <div class="panel">
+            <img class="profile-panel__picture">
+            <h3 class="name">
+                Bill Gates
+            </h3>
+            <p class="position">
+                Microsoft Founder
             </p>
-            <p class="title">
-                Connections
+            <p class="location">
+                Greater Seattle Area
             </p>
+
+            <button class="profile-panel__follow">Follow</button>
+
+            <button class="profile-panel__connect">Connect <i class="fa fa-caret-down"></i></button>
+
+            <div class="profile-panel__social-data left-border">
+                <p class="amount">
+                    200
+                </p>
+                <p class="title">
+                    Connections
+                </p>
+            </div>
+            <div class="profile-panel__social-data">
+                <p class="amount">
+                    1.9M
+                </p>
+                <p class="title">
+                    Followers
+                </p>
+            </div>
+
+            <ul class="profile-panel__social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-link fa-flip-horizontal"></i> linkedin.com/stuff/things
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-globe"></i> billgates.com
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="profile-panel__social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-floppy-o"></i> Export page as PDF
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="profile-panel__social-data">
-            <p class="amount">
-                1.9M
-            </p>
-            <p class="title">
-                Followers
-            </p>
-        </div>
-
-        <ul class="profile-panel__social-links">
-            <li>
-                <a href="#">
-                    <i class="fa fa-link fa-flip-horizontal"></i> linkedin.com/stuff/things
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-globe"></i> billgates.com
-                </a>
-            </li>
-        </ul>
-
-        <ul class="profile-panel__social-links">
-            <li>
-                <a href="#">
-                     <i class="fa fa-floppy-o"></i> Export page as PDF
-                </a>
-            </li>
-        </ul>
     </section>
 
 
 
-    <section class="block block--half-col block__article">
-        <button class="circle"><i class="fa fa-chevron-right"></i></button>
-        <button class="circle"><i class="fa fa-chevron-left"></i></button>
-
-        <h5>POSTS</h5>
-
-        <div class="article--content"></div>
-            <div class="topic topic--left">
-                <img class="post-pic">
+    <section class="block--half-col">
+        <div class="panel">
+            <div class="panel--head">
+                <h5>POSTS</h5>
+                <button class="circle"><i class="fa fa-chevron-right"></i></button>
+                <button class="circle"><i class="fa fa-chevron-left"></i></button>
+            </div>
+            <div class="panel--topic-left">
+                <img class="topic--pic">
                 <h7>3 Myths That Confuse the D...</h7>
                 <p class="date">February 19, 2014</p>
             </div>
-            <div class="topic topic--mid">
-                <img class="post-pic">
+            <div class="panel--topic-mid">
+                <img class="topic--pic">
                 <h7>How Much Do We Spend on...</h7>
                 <p class="date">January 21, 2014</p>
             </div>
-            <div class="topic topic--right">
-                <img class="post-pic">
+            <div class="panel--topic-right">
+                <img class="topic--pic">
                 <h7>Good News You Might Have...</h7>
                 <p class="date">December 30, 2013</p>
             </div>
