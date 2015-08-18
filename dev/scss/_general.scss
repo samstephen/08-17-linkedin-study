@@ -1,18 +1,26 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
+
+
 html {
   box-sizing: border-box;
   color: $black;
   font-size: 12px;
 }
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body{
   margin: 0;
   padding: 0;
   background: $bg-color;
 }
+
+
+
 
 .container {
   max-width: 970px;
@@ -23,11 +31,17 @@ body{
   padding-right: 5px;
 }
 
+
+
+
 .container:before, .container:after {
   content: " ";
   display: table;
   clear: both;
 }
+
+
+
 
 .block {
   background: #fff;
@@ -37,30 +51,62 @@ body{
   margin: 10px;
 }
 
+
+
+
 .block--half-col {
   width: $half-col;
 }
 
-.block.block--right {
+
+
+
+
+.right {
   float: right;
 }
 
-.name {
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-}
-
-
-.location {
-  text-align: center;
-}
-
-
 .text-center {
   text-align: center;
+}
+
+
+
+
+
+
+
+/*                     GENERAL TAGS                   */
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*                     BORDERS                   */
+
+.border-top {
+  border-top: $border;
+}
+
+.border-right {
+  border-right: $border;
+}
+
+.border-bottom {
+  border-bottom: $border;
+}
+
+.border-left {
+  border-left: $border;
 }
 
 hr {
@@ -70,32 +116,6 @@ hr {
   color: $light-gray;
   background-color: $light-gray;
 }
-
-
-a {
-  color: $primary;
-  text-decoration: none;
-}
-
-
-.border-top {
-  border-top: $border-t;
-}
-
-.border-right {
-  border-right: $border-r;
-}
-
-.border-bottom {
-  border-bottom: $border-b;
-}
-
-.border-left {
-  border-left: $border-l;
-}
-
-
-
 
 
 

@@ -393,32 +393,18 @@ body {
 .block--half-col {
   width: 47.91667%; }
 
-.block.block--right {
+.right {
   float: right; }
-
-.name {
-  text-align: center; }
-
-.title {
-  text-align: center; }
-
-.location {
-  text-align: center; }
 
 .text-center {
   text-align: center; }
 
-hr {
-  margin: 0;
-  border: none;
-  height: 1px;
-  color: #F0F2F4;
-  background-color: #F0F2F4; }
-
+/*                     GENERAL TAGS                   */
 a {
   color: #38B7EA;
   text-decoration: none; }
 
+/*                     BORDERS                   */
 .border-top {
   border-top: solid 1px #F0F2F4; }
 
@@ -431,8 +417,24 @@ a {
 .border-left {
   border-left: solid 1px #F0F2F4; }
 
-nav {
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  color: #F0F2F4;
+  background-color: #F0F2F4; }
+
+header {
   background-color: white;
+  display: block;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  margin: 0 auto; }
+
+nav {
+  border-left: solid 1px #F0F2F4;
+  border-right: solid 1px #F0F2F4;
   width: 970px;
   margin-left: auto;
   margin-right: auto;
@@ -448,7 +450,13 @@ nav {
   text-align: center;
   margin: 0;
   float: left;
-  height: 50px; }
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.less-height {
+  height: 34px; }
 
 .twelfth {
   width: 8.333%; }
@@ -466,11 +474,13 @@ nav {
   text-indent: 5px;
   border-radius: 12px;
   border: solid 1px #F0F2F4;
-  padding: 5px; }
+  padding: 5px;
+  height: 30px;
+  max-width: 135px; }
 
 .search .fa-search {
   position: absolute;
-  top: 6px;
+  top: 8px;
   right: 10px;
   font-size: 13px;
   color: #42484C; }
@@ -483,6 +493,27 @@ nav {
   list-style: none;
   display: inline-block;
   margin: 5px 10px; }
+
+.top-navigation li a {
+  color: #42484C; }
+
+.bottom-navigation {
+  padding-left: 0;
+  margin: 0; }
+
+.bottom-navigation li {
+  font-weight: lighter;
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px; }
+
+.bottom-navigation li a {
+  color: #A5A8AB; }
+
+.bottom-navigation li a.active-tab {
+  border-bottom: solid 2px #38B7EA;
+  color: #42484C;
+  padding: 8px; }
 
 .fa-comment {
   color: #62BC6F; }
@@ -497,7 +528,7 @@ nav {
   font-size: 1.5em; }
 
 .fa-3x {
-  font-size: 2.335em; }
+  font-size: 2.75em; }
 
 /*  */
 button {
