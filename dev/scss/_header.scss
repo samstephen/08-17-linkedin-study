@@ -35,3 +35,22 @@ nav {
   margin-right: auto;
   min-height: 50px;
 }
+
+.search {
+  position: relative;
+
+}
+
+.search input {
+  text-indent: 5px;
+  border-radius: 12px;
+  border: solid 1px $gray;
+  padding: 5px;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 13px;
+}
