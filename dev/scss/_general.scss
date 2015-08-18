@@ -16,18 +16,7 @@ body{
 
 .container {
   max-width: 960px;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-
-.container:before, .container:after {
-  content: " ";
-  display: table;
-  clear: both;
+  margin: 0 auto;
 }
 
 .block {
