@@ -18,40 +18,54 @@ body{
 }
 
 
-.container {
-  max-width: 970px;
+main {
+  max-width: 1170px;
   position: relative;
   margin: 0 auto;
   padding: 20px 10px;
-
 }
 
-.container:before, .container:after {
+main:before, main:after {
   content: " ";
   display: table;
   clear: both;
 }
 
 
-.block {
-  background: transparent;
+
+
+/*            COLUMNS               */
+
+.col {
   position: relative;
-  width: $quarter-col;
   float: left;
 }
 
-.block--half-col {
-  background: transparent;
-  position: relative;
-  width: $half-col;
-  margin: 0 20px;
-  float: left;
+section.col {
+  padding: 0 10px;
+}
 
+header, div.col {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.panel {
-  background: #fff;
-  padding: 10px 0;
-}
+
+
+
+
+
+
+
+
+
+
+/*             UTILITIES              */
+
 
 .right {
   float: right;
@@ -107,9 +121,3 @@ hr {
   color: $light-gray;
   background-color: $light-gray;
 }
-
-
-
-
-
-

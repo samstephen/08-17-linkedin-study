@@ -1,5 +1,19 @@
 
-/*  */
+
+/*                   COMPONENTS                      */
+
+
+
+// Panels //////////////////////////////////////////////
+
+.panel {
+  background: #fff;
+}
+
+
+
+
+// Buttons ////////////////////////////////////////////
 
 button {
   width: 75%;
@@ -13,6 +27,84 @@ button {
   padding: 2px 15px;
   font-weight: lighter;
 }
+
+button.circle {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  float: right;
+  text-align: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 5px;
+  font-weight: lighter;
+  border: 1px solid $black;
+  background: white;
+}
+
+button.circle + .circle {
+  margin-right: 5px;
+}
+
+button.circle, .circle {
+  margin-left: 0;
+}
+
+
+
+// Headings //////////////////////////////////////
+
+h5 {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+/*             ICONS COLOR AND SIZES             */
+
+.fa-linkedin-square {
+  color: $primary;
+}
+
+.fa-comment {
+  color: $green;
+}
+
+.fa-bell {
+  color: $orange;
+}
+
+.fa-user-plus {
+  color: $purple;
+}
+
+.fa-2x {
+  font-size: 1.5em;
+}
+
+.fa-3x {
+  font-size: 2.75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .profile-panel__follow {
   color: white;
@@ -76,36 +168,9 @@ button {
   font-weight: lighter;
 }
 
-button.circle {
-  height: 23px;
-  width: 23px;
-  display: inline-block;
-  position: relative;
-  margin: 15px;
-  float: right;
-  text-align: center;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  padding: 5px;
-  font-weight: lighter;
-  border: 1px solid $black;
-  background: white;
-}
 
-button.circle + .circle {
-  margin-right: 5px;
-}
 
-button.circle, .circle {
-  margin-left: 0;
-}
 
-h5 {
-  margin: 20px;
-  font-size: 14px;
-  font-weight: normal;
-}
 
 
 
